@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Satoshi', sans-serif;
+}
+
+body{
+    margin: 1rem;
+}
+
+.title{
+    text-align: center;
+}
+
+.title img{
+    cursor: pointer;
+}
+
+main h1{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    margin: 30px 0;
+    flex-direction: column;
+    gap: 30px;
+}
+
+article{
+    background-color: #323232;
+    border-radius: 10px;
+    color: #ffff;
+    padding: 20px 10px;
+}
+
+.mockup{
+    width: 100%;
+    border-radius: 5px;
+}
+
+small{
+    color: #8000ff;
+}
+
+article p{
+    margin-top: 10px;
+}
+
+.skills{
+    margin: 10px 0;
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    background-color: #8000ff;
+    color: #ffff;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    font-weight: 800;
+}
